@@ -1,0 +1,46 @@
+[
+  {
+    "repo": "https://raw.githubusercontent.com/xivdev/Penumbra/master/repo.json",
+    "plugins": ["Penumbra"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/Ottermandias/Glamourer/main/repo.json",
+    "plugins": ["Glamourer"]
+  },
+  {
+    "repo": "https://files.maresynchronos.com/release/plogonmaster.json",
+    "plugins": ["MareSynchronos"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/Aether-Tools/DalamudPlugins/main/repo.json",
+    "plugins": ["CustomizePlus"]
+  },
+  {
+    "repo": "https://repo.caraxian.com",
+    "plugins": ["SimpleHeels"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/ktisis-tools/Ktisis/main/repo.json",
+    "plugins": ["Ktisis"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json",
+    "plugins": ["Brio"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/LeonBlade/DalamudPlugins/main/repo.json",
+    "plugins": ["BDTHPlugin"]
+  },
+  {
+    "repo": "https://love.puni.sh/ment.json",
+    "plugins": ["Artisan", "AutoRetainer", "PandorasBox"]
+  },
+  {
+    "repo": "https://puni.sh/api/repository/veyn",
+    "plugins": ["visland"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
+    "plugins": ["AntiAfkKick-Dalamud"]
+  }
+]
