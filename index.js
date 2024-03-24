@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const extraTag = "RepoList";
+const extraTag = "eScape";
 const reposMeta = JSON.parse(fs.readFileSync("./meta.json", "utf8"));
 const final = [];
 
@@ -25,7 +25,7 @@ async function doRepo(url, plugins) {
   console.log(`Fetching ${url}...`);
   const repo = await fetch(url, {
       headers: {
-              'user-agent': 'SeaOfStars/1.0.0',
+              'user-agent': 'eScape/1.0.0',
       },
   }).then((res) => res.json());
 
@@ -50,10 +50,10 @@ async function doRepo(url, plugins) {
 async function FixPlugin(plugin){
   // Add Icon
   if(plugin.InternalName == "SimpleHeels"){
-    plugin.IconUrl = "https://raw.githubusercontent.com/Murakumo-JP/RepoList/main/icon/SimpleHeels.png";
+    plugin.IconUrl = "https://raw.githubusercontent.com/Murakumo-JP/eScape/main/icon/SimpleHeels.png";
   }
   if(plugin.InternalName == "AntiAfkKick-Dalamud"){
-    plugin.IconUrl = "https://raw.githubusercontent.com/Murakumo-JP/RepoList/main/icon/AntiAFK.png";
+    plugin.IconUrl = "https://raw.githubusercontent.com/Murakumo-JP/eScape/main/icon/AntiAFK.png";
   }
   // Deletes line
   if (plugin.DownloadCount !== undefined) {
