@@ -19,7 +19,7 @@
     "DownloadLinkUpdate": "https://github.com/xivdev/Penumbra/releases/download/1.0.1.0/Penumbra.zip",
     "IconUrl": "https://raw.githubusercontent.com/xivdev/Penumbra/master/images/icon.png",
     "Tags": [
-      "RepoList"
+      "eScape"
     ]
   },
   {
@@ -38,7 +38,7 @@
       "Customization",
       "Design",
       "Character",
-      "RepoList"
+      "eScape"
     ],
     "InternalName": "Glamourer",
     "AssemblyVersion": "1.2.0.8",
@@ -63,7 +63,7 @@
     "RepoUrl": "https://github.com/Penumbra-Sync/client",
     "Tags": [
       "customization",
-      "RepoList"
+      "eScape"
     ],
     "DalamudApiLevel": 9,
     "LoadPriority": 0,
@@ -100,7 +100,7 @@
       "Character",
       "Risa",
       "Aether Tools",
-      "RepoList"
+      "eScape"
     ]
   },
   {
@@ -119,9 +119,9 @@
     "DownloadLinkTesting": "https://repo.caraxian.com/plugins/SimpleHeels/0.9.2.1.zip",
     "DownloadLinkUpdate": "https://repo.caraxian.com/plugins/SimpleHeels/0.9.2.1.zip",
     "Tags": [
-      "RepoList"
+      "eScape"
     ],
-    "IconUrl": "https://raw.githubusercontent.com/Murakumo-JP/RepoList/main/icon/SimpleHeels.png"
+    "IconUrl": "https://raw.githubusercontent.com/Murakumo-JP/eScape/main/icon/SimpleHeels.png"
   },
   {
     "Author": "Chirp",
@@ -137,7 +137,7 @@
       "gpose",
       "posing",
       "ktisis",
-      "RepoList"
+      "eScape"
     ],
     "IconUrl": "https://github.com/ktisis-tools/Ktisis/raw/main/icon.png",
     "DownloadLinkInstall": "https://github.com/ktisis-tools/Ktisis/releases/download/v0.2.22/latest.zip",
@@ -164,7 +164,7 @@
       "brio",
       "posing",
       "animation",
-      "RepoList"
+      "eScape"
     ]
   },
   {
@@ -183,7 +183,7 @@
       "glitch",
       "furnishing",
       "LeonBlade",
-      "RepoList"
+      "eScape"
     ],
     "DalamudApiLevel": 9,
     "IconUrl": "https://github.com/LeonBlade/BDTHPlugin/raw/main/icon.png",
@@ -200,7 +200,7 @@
     "Description": "The all-in-one crafting plugin.",
     "Tags": [
       "crafting",
-      "RepoList"
+      "eScape"
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
@@ -220,7 +220,7 @@
     "Punchline": "Collect and assign ventures to your retainers from the comfort of your bed.",
     "Description": "Collect and assign ventures to your retainers from the comfort of your bed.",
     "Tags": [
-      "RepoList"
+      "eScape"
     ],
     "InternalName": "AutoRetainer",
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
@@ -242,7 +242,7 @@
     "Tags": [
       "punish",
       "plugin",
-      "RepoList"
+      "eScape"
     ],
     "InternalName": "PandorasBox",
     "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
@@ -262,7 +262,7 @@
     "Punchline": "Automate island sanctuary activities",
     "Description": "Automate gathering, workshop assignments, etc.",
     "Tags": [
-      "RepoList"
+      "eScape"
     ],
     "InternalName": "visland",
     "RepoUrl": "https://github.com/awgil/ffxiv_visland",
@@ -290,9 +290,9 @@
     "DownloadLinkInstall": "https://github.com/NightmareXIV/AntiAfkKick/releases/download/2.1.0.5/latest.zip",
     "DownloadLinkUpdate": "https://github.com/NightmareXIV/AntiAfkKick/releases/download/2.1.0.5/latest.zip",
     "SupportsProfiles": true,
-    "IconUrl": "https://raw.githubusercontent.com/Murakumo-JP/RepoList/main/icon/AntiAFK.png",
+    "IconUrl": "https://raw.githubusercontent.com/Murakumo-JP/eScape/main/icon/AntiAFK.png",
     "Tags": [
-      "RepoList"
+      "eScape"
     ]
   }
 ]
