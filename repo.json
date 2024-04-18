@@ -231,7 +231,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "9",
     "Changelog": "Internal changes",
-    "TestingAssemblyVersion": "4.2.6.2",
+    "TestingAssemblyVersion": "4.2.6.3",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
   },
