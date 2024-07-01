@@ -200,10 +200,10 @@
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
-    "AssemblyVersion": "4.3.0.5",
+    "AssemblyVersion": "4.3.0.6",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": "9",
-    "Changelog": "- All reported UI bugs should be fixed",
+    "DalamudApiLevel": "10",
+    "Changelog": "- Dawntrail update\n- Some functions are not yet working: GC delivery, context menu integration\n- \"Teleport to house\" function was removed as it was causing way too much issues in current implementation. It will be reimplemented later.",
     "TestingAssemblyVersion": "4.3.0.2",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
