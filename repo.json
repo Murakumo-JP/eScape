@@ -200,10 +200,10 @@
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
-    "AssemblyVersion": "4.3.0.7",
+    "AssemblyVersion": "4.3.0.8",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "10",
-    "Changelog": "",
+    "Changelog": "- Fixed incorrect FC gil issue\n- Fixed GC delivery not working",
     "TestingAssemblyVersion": "4.3.0.2",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
