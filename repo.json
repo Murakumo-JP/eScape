@@ -201,10 +201,10 @@
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
-    "AssemblyVersion": "4.3.1.4",
+    "AssemblyVersion": "4.3.1.5",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "10",
-    "Changelog": "",
+    "Changelog": "- Context menu functions restored\n- Fixed field/highland/etc explorations venture plans\n- Added mass settings change for submarines (/ays s - Deployables)",
     "TestingAssemblyVersion": "4.3.0.2",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
