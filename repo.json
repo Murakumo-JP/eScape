@@ -48,6 +48,7 @@
     "RepoUrl": "https://github.com/Ottermandias/Glamourer",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
+    "TestingDalamudApiLevel": 10,
     "IsHide": "False",
     "IsTestingExclusive": "False",
     "DownloadLinkInstall": "https://github.com/Ottermandias/Glamourer/releases/download/1.2.3.3/Glamourer.zip",
