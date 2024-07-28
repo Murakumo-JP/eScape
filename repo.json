@@ -189,6 +189,7 @@
     "Changelog": "",
     "TestingAssemblyVersion": "4.0.0.0",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/testing.zip",
+    "TestingDalamudApiLevel": "10",
     "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
   },
   {
@@ -209,6 +210,7 @@
     "Changelog": "",
     "TestingAssemblyVersion": "4.3.1.8",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
+    "TestingDalamudApiLevel": "10",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
   },
   {
@@ -231,6 +233,7 @@
     "Changelog": "",
     "TestingAssemblyVersion": "1.5.4.1",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/testing.zip",
+    "TestingDalamudApiLevel": "9",
     "IconUrl": "https://s3.puni.sh/media/plugin/8/icon-9opcpzqyh1h.png"
   },
   {
