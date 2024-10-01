@@ -16,10 +16,6 @@
     "plugins": ["SimpleHeels"]
   },
   {
-    "repo": "https://raw.githubusercontent.com/ktisis-tools/Ktisis/main/repo.json",
-    "plugins": ["Ktisis"]
-  },
-  {
     "repo": "https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json",
     "plugins": ["Brio"]
   },
