@@ -186,7 +186,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "10",
     "Changelog": "- Fix retainer order",
-    "TestingAssemblyVersion": "4.4.1.5",
+    "TestingAssemblyVersion": "4.4.1.6",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "TestingDalamudApiLevel": "10",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
