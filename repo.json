@@ -186,7 +186,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "11",
     "Changelog": "- Item level calculations fixed",
-    "TestingAssemblyVersion": "4.4.2.7",
+    "TestingAssemblyVersion": "4.4.3.1",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "TestingDalamudApiLevel": "11",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
