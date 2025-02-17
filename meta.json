@@ -33,6 +33,6 @@
   },
   {
     "repo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
-    "plugins": ["AntiAfkKick-Dalamud"]
+    "plugins": ["AntiAfkKick-Dalamud", "Lifestream"]
   }
 ]
