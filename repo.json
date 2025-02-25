@@ -189,7 +189,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "11",
     "Changelog": "- Fixed possible issue that was causing stucks in voyage redeployment window",
-    "TestingAssemblyVersion": "4.4.4.3",
+    "TestingAssemblyVersion": "4.4.4.5",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "TestingDalamudApiLevel": "11",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
