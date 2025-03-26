@@ -185,7 +185,7 @@
     "RepoUrl": "https://github.com/PunishXIV/AutoRetainer",
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/latest.zip",
-    "AssemblyVersion": "4.4.5.1",
+    "AssemblyVersion": "4.4.5.3",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "12",
     "Changelog": "- 7.2 update",
