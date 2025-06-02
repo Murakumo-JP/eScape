@@ -210,7 +210,7 @@
     "RepoUrl": "https://github.com/PunishXIV/PandorasBox",
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/8/PandorasBox/versions/latest.zip",
-    "AssemblyVersion": "1.6.3.5",
+    "AssemblyVersion": "1.6.3.6",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "12",
     "Changelog": "- New command /puseitem.",
