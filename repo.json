@@ -266,7 +266,7 @@
     "Changelog": "- Now you can specify aethernet destination via `/li` command and you will be teleported there, if possible (only city aetheryte, not housing/Eureka/etc), for example `/li sapphire` will take you to Sapphire Avenue.\r\n- Now you can specify additional commands when teleporting using `/li tp` command using comma, for example `/li tp cactuar,sapphire`.\r\n- Specifying invalid aethernet destination does no longer makes plugin stuck and it will display a proper error message.",
     "IsHide": false,
     "InternalName": "Lifestream",
-    "AssemblyVersion": "2.5.1.3",
+    "AssemblyVersion": "2.5.1.4",
     "TestingAssemblyVersion": "2.5.1.5",
     "IsTestingExclusive": false,
     "RepoUrl": "https://github.com/NightmareXIV/Lifestream",
