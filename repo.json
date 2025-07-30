@@ -191,7 +191,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "12",
     "Changelog": "- KR language fixes",
-    "TestingAssemblyVersion": "4.5.1.8",
+    "TestingAssemblyVersion": "4.5.1.12",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "TestingDalamudApiLevel": "12",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
