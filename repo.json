@@ -60,7 +60,7 @@
     "Author": "darkarchon",
     "Name": "Mare Synchronos",
     "InternalName": "MareSynchronos",
-    "AssemblyVersion": "0.11.21",
+    "AssemblyVersion": "0.11.22",
     "Description": "This plugin will synchronize your Penumbra mods and current Glamourer state with other paired clients automatically.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Penumbra-Sync/client",
@@ -68,15 +68,15 @@
       "customization",
       "eScape"
     ],
-    "DalamudApiLevel": 12,
+    "DalamudApiLevel": 13,
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/Penumbra-Sync/repo/main/MareSynchronos/images/icon.png",
     "Punchline": "Let others see you as you see yourself.",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "DownloadLinkInstall": "https://cf.maresynchronos.com/release/0.11.21.zip",
-    "DownloadLinkTesting": "https://cf.maresynchronos.com/release/0.11.21.zip",
-    "DownloadLinkUpdate": "https://cf.maresynchronos.com/update/0.11.21.zip"
+    "DownloadLinkInstall": "https://cf.maresynchronos.com/release/0.11.22.zip",
+    "DownloadLinkTesting": "https://cf.maresynchronos.com/release/0.11.22.zip",
+    "DownloadLinkUpdate": "https://cf.maresynchronos.com/update/0.11.22.zip"
   },
   {
     "Author": "Caraxi",
@@ -106,14 +106,14 @@
     "Punchline": "Enhanced GPosing.",
     "Description": "Control & edit actors during GPose sessions.",
     "InternalName": "Brio",
-    "AssemblyVersion": "0.5.1.2",
-    "TestingAssemblyVersion": "0.5.1.2",
+    "AssemblyVersion": "0.5.2",
+    "TestingAssemblyVersion": "0.5.2",
     "RepoUrl": "https://github.com/Etheirys/Brio",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 12,
-    "DownloadLinkInstall": "https://github.com/Etheirys/Brio/releases/download/v0.5.1.2/Brio.zip",
-    "DownloadLinkTesting": "https://github.com/Etheirys/Brio/releases/download/v0.5.1.2/Brio.zip",
-    "DownloadLinkUpdate": "https://github.com/Etheirys/Brio/releases/download/v0.5.1.2/Brio.zip",
+    "DalamudApiLevel": 13,
+    "DownloadLinkInstall": "https://github.com/Etheirys/Brio/releases/download/v0.5.2/Brio.zip",
+    "DownloadLinkTesting": "https://github.com/Etheirys/Brio/releases/download/v0.5.2/Brio.zip",
+    "DownloadLinkUpdate": "https://github.com/Etheirys/Brio/releases/download/v0.5.2/Brio.zip",
     "IconUrl": "https://raw.githubusercontent.com/Etheirys/Brio/main/Resources/Images/BrioIcon.png",
     "Tags": [
       "gpose",
@@ -123,6 +123,8 @@
       "animation",
       "xat",
       "cutscene",
+      "utility",
+      "tools",
       "eScape"
     ]
   },
