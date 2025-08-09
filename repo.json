@@ -147,7 +147,7 @@
       "LeonBlade",
       "eScape"
     ],
-    "DalamudApiLevel": 12,
+    "DalamudApiLevel": 13,
     "IconUrl": "https://github.com/LeonBlade/BDTHPlugin/raw/main/icon.png",
     "IsHide": "False",
     "IsTestingExclusive": "False",
