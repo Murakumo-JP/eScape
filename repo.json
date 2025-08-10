@@ -172,7 +172,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "- Updated raphael solver",
-    "TestingAssemblyVersion": "4.0.3.52",
+    "TestingAssemblyVersion": "4.0.3.53",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/6/Artisan/versions/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
