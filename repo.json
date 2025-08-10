@@ -233,9 +233,9 @@
     "RepoUrl": "https://github.com/awgil/ffxiv_visland",
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/latest.zip",
-    "AssemblyVersion": "0.0.0.136",
+    "AssemblyVersion": "0.0.0.137",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": "12",
+    "DalamudApiLevel": "13",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
   },
