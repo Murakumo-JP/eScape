@@ -240,6 +240,27 @@
     "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
   },
   {
+    "Author": "veyn, xan_0",
+    "Name": "vnavmesh",
+    "Punchline": "Move around!",
+    "Description": "Utility to automatically move the character around in the world, skilfully avoiding any obstacles.",
+    "Tags": [
+      "eScape"
+    ],
+    "InternalName": "vnavmesh",
+    "RepoUrl": null,
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
+    "AssemblyVersion": "0.4.1.1",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": "13",
+    "Changelog": "",
+    "TestingAssemblyVersion": "0.4.0.1",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/testing.zip",
+    "TestingDalamudApiLevel": "12",
+    "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
+  },
+  {
     "Author": "NightmareXIV",
     "Name": "AntiAfkKick",
     "Punchline": "A Dalamud plugin for preventing being auto-kicked from FFXIV due to inactivity. Install and forget, no config needed.",
@@ -283,5 +304,43 @@
     "Tags": [
       "eScape"
     ]
+  },
+  {
+    "Author": "The Combat Reborn Team",
+    "Name": "GatherBuddy Reborn",
+    "InternalName": "GatherbuddyReborn",
+    "Description": "Adds commands to simplify gathering by finding nodes and fish and their locations via item name and a UI to keep track of special uptime and weather conditions. Also automatically gathers items based on these conditions using lists that you specify. Automated gathering requires vnavmesh.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "TestingDalamudApiLevel": 13,
+    "Tags": [
+      "Gathering",
+      "Fishing",
+      "Mining",
+      "Botany",
+      "Weather",
+      "Alarms",
+      "Automatic",
+      "Forager",
+      "eScape"
+    ],
+    "CategoryTags": [
+      "Jobs",
+      "Utility"
+    ],
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IsTestingExclusive": false,
+    "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
+    "Punchline": "Simplify Gathering and Fishing to the extreme.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.0.2/GatherbuddyReborn.zip",
+    "AssemblyVersion": "7.3.0.2",
+    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.0.2/GatherbuddyReborn.zip",
+    "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.2.5.1/GatherbuddyReborn.zip",
+    "TestingAssemblyVersion": "7.2.5.1",
+    "Changelog": "**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.3.0.1...7.3.0.2"
   }
 ]
