@@ -29,10 +29,14 @@
   },
   {
     "repo": "https://puni.sh/api/repository/veyn",
-    "plugins": ["visland"]
+    "plugins": ["visland", "vnavmesh"]
   },
   {
     "repo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
     "plugins": ["AntiAfkKick-Dalamud", "Lifestream"]
+  },
+  {
+    "repo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+    "plugins": ["GatherbuddyReborn"]
   }
 ]
