@@ -193,7 +193,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "- Fixed an issue with editing additional inventory cleanup plans",
-    "TestingAssemblyVersion": "4.5.1.20",
+    "TestingAssemblyVersion": "4.5.1.21",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
