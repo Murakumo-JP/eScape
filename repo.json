@@ -193,7 +193,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "- Issue that made entrusting items to retainers fail was resolved\n- Entrusting, selling and discarding use random delay now",
-    "TestingAssemblyVersion": "4.5.1.21",
+    "TestingAssemblyVersion": "4.5.2.0",
     "DownloadLinkTesting": "https://puni.sh/api/plugins/download/24/AutoRetainer/versions/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
