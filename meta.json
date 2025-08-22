@@ -8,10 +8,6 @@
     "plugins": ["Glamourer"]
   },
   {
-    "repo": "https://files.maresynchronos.com/release/plogonmaster.json",
-    "plugins": ["MareSynchronos"]
-  },
-  {
     "repo": "https://repo.caraxian.com",
     "plugins": ["SimpleHeels"]
   },
