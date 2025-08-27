@@ -20,10 +20,6 @@
     "plugins": ["BDTHPlugin"]
   },
   {
-    "repo": "https://love.puni.sh/ment.json",
-    "plugins": ["Artisan", "AutoRetainer", "PandorasBox"]
-  },
-  {
     "repo": "https://puni.sh/api/repository/veyn",
     "plugins": ["visland", "vnavmesh"]
   },
