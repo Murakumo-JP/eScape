@@ -25,7 +25,7 @@
   },
   {
     "repo": "https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json",
-    "plugins": ["AntiAfkKick-Dalamud", "Lifestream"]
+    "plugins": ["AntiAfkKick-Dalamud", "Lifestream", "TextAdvance"]
   },
   {
     "repo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
