@@ -52,9 +52,6 @@ async function FixPlugin(plugin){
   if(plugin.InternalName == "SimpleHeels"){
     plugin.IconUrl = "https://raw.githubusercontent.com/Murakumo-JP/eScape/main/icon/SimpleHeels.png";
   }
-  if(plugin.InternalName == "AntiAfkKick-Dalamud"){
-    plugin.IconUrl = "https://raw.githubusercontent.com/Murakumo-JP/eScape/main/icon/AntiAFK.png";
-  }
   // Deletes line
   if (plugin.DownloadCount !== undefined) {
     delete plugin.DownloadCount;
