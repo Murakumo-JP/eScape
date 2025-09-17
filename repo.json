@@ -164,7 +164,7 @@
     "RepoUrl": null,
     "DownloadLinkInstall": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
     "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/latest.zip",
-    "AssemblyVersion": "0.5.0.2",
+    "AssemblyVersion": "0.5.1.0",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
