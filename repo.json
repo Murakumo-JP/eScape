@@ -173,8 +173,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "13",
     "Changelog": "",
-    "TestingAssemblyVersion": "0.5.3.1",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.3.1/testing.zip",
+    "TestingAssemblyVersion": "0.5.5.0",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/48/vnavmesh/versions/0.5.5.0/testing.zip",
     "TestingDalamudApiLevel": "13",
     "IconUrl": "https://s3.puni.sh/media/plugin/48/icon-ylwecng2h0n.png"
   },
