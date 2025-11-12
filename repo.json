@@ -281,8 +281,8 @@
     "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.5.12/GatherbuddyReborn.zip",
     "AssemblyVersion": "7.3.5.12",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.5.12/GatherbuddyReborn.zip",
-    "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.5.15/GatherbuddyReborn.zip",
-    "TestingAssemblyVersion": "7.3.5.15",
+    "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.5.16/GatherbuddyReborn.zip",
+    "TestingAssemblyVersion": "7.3.5.16",
     "Changelog": "## What's Changed\r\n* Fishing/Firmament/Diadem Bug fixes by @Deathbeyond87 in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/430\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.3.5.11...7.3.5.12"
   }
 ]
