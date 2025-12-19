@@ -149,12 +149,12 @@
     ],
     "InternalName": "visland",
     "RepoUrl": "https://github.com/awgil/ffxiv_visland",
-    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.138/latest.zip",
-    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.138/latest.zip",
-    "AssemblyVersion": "0.0.0.138",
+    "DownloadLinkInstall": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.139/latest.zip",
+    "DownloadLinkUpdate": "https://puni.sh/api/plugins/download/28/visland/versions/0.0.0.139/latest.zip",
+    "AssemblyVersion": "0.0.0.139",
     "ApplicableVersion": "any",
     "DalamudApiLevel": "14",
-    "Changelog": "api14",
+    "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png"
   },
   {
