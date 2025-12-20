@@ -253,8 +253,8 @@
     "InternalName": "GatherbuddyReborn",
     "Description": "Adds commands to simplify gathering by finding nodes and fish and their locations via item name and a UI to keep track of special uptime and weather conditions. Also automatically gathers items based on these conditions using lists that you specify. Automated gathering requires vnavmesh.",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 13,
-    "TestingDalamudApiLevel": 13,
+    "DalamudApiLevel": 14,
+    "TestingDalamudApiLevel": 14,
     "Tags": [
       "Gathering",
       "Fishing",
@@ -281,8 +281,8 @@
     "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.8.14/GatherbuddyReborn.zip",
     "AssemblyVersion": "7.3.8.14",
     "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.8.14/GatherbuddyReborn.zip",
-    "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.3.8.12/GatherbuddyReborn.zip",
-    "TestingAssemblyVersion": "7.3.8.12",
+    "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.4.0.0/GatherbuddyReborn.zip",
+    "TestingAssemblyVersion": "7.4.0.0",
     "Changelog": "## What's Changed\r\n* Collectable Expansion by @Deathbeyond87 in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/468\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.3.8.13...7.3.8.14"
   }
 ]
