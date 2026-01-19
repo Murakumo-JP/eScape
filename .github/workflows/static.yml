@@ -1,8 +1,11 @@
-name: Generate & Deploy JSON
+name: Web Repo
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
+  workflow_run:
+    workflows: ["ryn.yml"]
+    types:
+      - completed
+
   workflow_dispatch:
 
 permissions:
@@ -10,38 +13,25 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Run JSON generator
-        run: node index.js
-
-      - name: Commit generated JSON
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-
-          git add repo.json
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update repo.json"
-            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
-          fi
-
-      - name: Configure GitHub Pages
+      - name: Setup Pages
         uses: actions/configure-pages@v5
-
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
