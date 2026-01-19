@@ -1,36 +1,42 @@
+name: Generate & Deploy JSON
+
 on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
 
-  permissions:
-    contents: read
-    pages: write
-    id-token: write
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  generate:
-    name: Generate repository
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-          check-latest: true
-      - name: Run generator
+
+      - name: Run JSON generator
         run: node index.js
-      - name: Commit changes
+
+      - name: Commit generated JSON
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git fetch origin main
-          git checkout main
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
           git add repo.json
           git diff --cached --quiet && exit 0
-          git commit -m "Update repository"
-      - uses: actions/configure-pages@v5
+          git commit -m "Update repo.json"
+          git push
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
