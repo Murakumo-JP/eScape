@@ -2,7 +2,7 @@ name: Web Repo
 
 on:
   workflow_run:
-    workflows: ["ryn.yml"]
+    workflows: ["Generate Repo"]
     types:
       - completed
 
