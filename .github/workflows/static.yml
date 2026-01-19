@@ -1,76 +1,36 @@
-name: Generate and Deploy
-
 on:
   schedule:
     - cron: "*/30 * * * *"
-  push:
-    branches: ["main"]
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  permissions:
+    contents: read
+    pages: write
+    id-token: write
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  generate:
+    name: Generate repository
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout with full history
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Setup Node.js
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        uses: actions/setup-node@v4
+          ref: main
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
           check-latest: true
-      
       - name: Run generator
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node index.js
-      
-      - name: Check for changes
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        id: check-changes
-        run: |
-          git status --porcelain
-          if git status --porcelain | grep -q "."; then
-            echo "has-changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected"
-          else
-            echo "has-changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected"
-          fi
-      
-      - name: Commit generated changes
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' && steps.check-changes.outputs.has-changes == 'true'
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "Auto-generated data update - $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-      
+          git fetch origin main
+          git checkout main
+          git add repo.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update repository"
+      - uses: actions/configure-pages@v5
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
