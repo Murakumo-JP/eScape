@@ -1,13 +1,14 @@
-name: Web Repo
+name: Generate and Web
 
 on:
+  schedule:
+    - cron: "*/30 * * * *"
   push:
     branches: ["main"]
-
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -21,15 +22,50 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          check-latest: true
+      
+      - name: Run generator (если есть файл index.js)
+        run: |
+          if [ -f "index.js" ]; then
+            node index.js
+          fi
+      
+      - name: Commit generated changes
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Проверяем, есть ли изменения
+          if git status --porcelain | grep -q "."; then
+            echo "Changes detected, committing..."
+            git add -A
+            git commit -m "Auto-generated data update - $(date)"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
+      
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # Загружаем весь репозиторий для деплоя
           path: '.'
+      
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
