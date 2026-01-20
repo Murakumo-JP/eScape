@@ -1,9 +1,10 @@
-name: Web Pages
+name: Web Repo
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Generate Repo"]
+    types:
+      - completed
 
   workflow_dispatch:
 
@@ -13,32 +14,24 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
   deploy:
-    if: |
-      github.actor == 'github-actions[bot]'
-
-    runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
-
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
