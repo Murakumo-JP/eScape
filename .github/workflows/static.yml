@@ -19,7 +19,7 @@ concurrency:
 jobs:
   deploy:
     if: |
-      github.actor == 'github-actions'
+      github.actor == 'github-actions[bot]'
 
     runs-on: ubuntu-latest
 
