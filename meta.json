@@ -9,7 +9,7 @@
   },
   {
     "repo": "https://repo.caraxian.com",
-    "plugins": ["SimpleHeels"]
+    "plugins": ["SimpleHeels", "SimpleGlamourSwitcher"]
   },
   {
     "repo": "https://raw.githubusercontent.com/Etheirys/Brio/main/repo.json",
