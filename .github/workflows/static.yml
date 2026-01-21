@@ -2,8 +2,8 @@ name: Web Repo
 
 on:
   push:
-    paths:
-      - 'repo.json'
+    branches:
+      - main
 
 permissions:
   contents: read
