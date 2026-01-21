@@ -93,10 +93,10 @@
     "LoadPriority": 0,
     "Punchline": "Alternative glamour management",
     "DownloadLinkInstall": "https://repo.caraxian.com/plugins/SimpleGlamourSwitcher/1.3.0.4.zip",
-    "DownloadLinkTesting": "https://repo.caraxian.com/plugins/SimpleGlamourSwitcher/1.3.0.6.zip",
+    "DownloadLinkTesting": "https://repo.caraxian.com/plugins/SimpleGlamourSwitcher/1.3.0.7.zip",
     "DownloadLinkUpdate": "https://repo.caraxian.com/plugins/SimpleGlamourSwitcher/1.3.0.4.zip",
     "TestingDalamudApiLevel": 14,
-    "TestingAssemblyVersion": "1.3.0.6",
+    "TestingAssemblyVersion": "1.3.0.7",
     "Tags": [
       "eScape"
     ]
