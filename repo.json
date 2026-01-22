@@ -79,29 +79,6 @@
     "IconUrl": "https://raw.githubusercontent.com/Murakumo-JP/eScape/main/icon/SimpleHeels.png"
   },
   {
-    "Author": "Caraxi",
-    "Name": "Simple Glamour Switcher",
-    "InternalName": "SimpleGlamourSwitcher",
-    "AssemblyVersion": "1.3.0.4",
-    "Description": "An alternative to using Glamourer for saving and reapplying outfits.\n - Allows for easy switching between multiple character setups.\n - Improved temporary mod settings, applying and reverting changes to individual slots.\n - Improved advanced dye application.\n\nRequires Glamourer and Penumbra, with optional support for Honorific, Simple Heels and Customize+.",
-    "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Caraxi/SimpleGlamourSwitcher",
-    "DalamudApiLevel": 14,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
-    "Punchline": "Alternative glamour management",
-    "DownloadLinkInstall": "https://repo.caraxian.com/plugins/SimpleGlamourSwitcher/1.3.0.4.zip",
-    "DownloadLinkTesting": "https://repo.caraxian.com/plugins/SimpleGlamourSwitcher/1.3.0.7.zip",
-    "DownloadLinkUpdate": "https://repo.caraxian.com/plugins/SimpleGlamourSwitcher/1.3.0.4.zip",
-    "TestingDalamudApiLevel": 14,
-    "TestingAssemblyVersion": "1.3.0.7",
-    "Tags": [
-      "eScape"
-    ]
-  },
-  {
     "Author": "Minmoose, Asgard and Contributors",
     "Name": "Brio",
     "Punchline": "Enhanced GPosing! A utility for improving the G-Pose experience in FFXIV.",
