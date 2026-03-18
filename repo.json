@@ -279,6 +279,7 @@
     "IsTestingExclusive": false,
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
     "Punchline": "Simplify Gathering and Fishing to the extreme.",
+    "RepoUrl": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.4.5.0/GatherbuddyReborn.zip",
     "AssemblyVersion": "7.4.5.0",
