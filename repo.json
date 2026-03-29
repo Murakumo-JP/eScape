@@ -287,5 +287,39 @@
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/releases/download/7.4.5.9/GatherbuddyReborn.zip",
     "TestingAssemblyVersion": "7.4.5.9",
     "Changelog": "## What's Changed\r\n* Fix navigation to zero vector by @lazyranma in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/555\r\n* New node locations data by @lazyranma in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/556\r\n* Fix fallback list item overcap and retainer inventory check by @lazyranma in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/559\r\n* Fix Oddly Delicate items not appearing in the Auto-Gather list by @lazyranma in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/562\r\n* Fix duplicate items in config preset check and remove redundant code by @lazyranma in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/563\r\n* Fix auto-gather lists order reset on load by @lazyranma in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/565\r\n* 7.4 fish data by @Deathbeyond87 in https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/pull/566\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/GatherBuddyReborn/compare/7.4.1.2...7.4.5.0"
+  },
+  {
+    "Author": "The Combat Reborn Team",
+    "Name": "BossMod Reborn",
+    "InternalName": "BossModReborn",
+    "Description": "A bunch of utilities to simplify boss mechanics",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "TestingDalamudApiLevel": 0,
+    "Tags": [
+      "combat",
+      "boss",
+      "dodge",
+      "mechanics",
+      "pve",
+      "raids",
+      "trials",
+      "eScape"
+    ],
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IsTestingExclusive": false,
+    "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/BMR_Icon.png",
+    "Punchline": "Don't fail at raid mechanics anymore",
+    "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.16/latest.zip",
+    "AssemblyVersion": "7.4.5.16",
+    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.16/latest.zip",
+    "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.11/latest.zip",
+    "TestingAssemblyVersion": "7.4.5.11",
+    "Changelog": "## What's Changed\r\n* merge vbm, set some modules to contributed maturity by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1134\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.4.5.15...7.4.5.16"
   }
 ]
