@@ -29,6 +29,6 @@
   },
   {
     "repo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
-    "plugins": ["GatherbuddyReborn"]
+    "plugins": ["GatherbuddyReborn", "BossModReborn"]
   }
 ]
