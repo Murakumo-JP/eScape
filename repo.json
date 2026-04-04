@@ -315,11 +315,11 @@
     "Punchline": "Don't fail at raid mechanics anymore",
     "RepoUrl": "https://github.com/FFXIV-CombatReborn/BossmodReborn",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.16/latest.zip",
-    "AssemblyVersion": "7.4.5.16",
-    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.16/latest.zip",
+    "DownloadLinkInstall": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.17/latest.zip",
+    "AssemblyVersion": "7.4.5.17",
+    "DownloadLinkUpdate": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.17/latest.zip",
     "DownloadLinkTesting": "https://github.com/FFXIV-CombatReborn/BossmodReborn/releases/download/7.4.5.11/latest.zip",
     "TestingAssemblyVersion": "7.4.5.11",
-    "Changelog": "## What's Changed\r\n* merge vbm, set some modules to contributed maturity by @CarnifexOptimus in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1134\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.4.5.15...7.4.5.16"
+    "Changelog": "## What's Changed\r\n* Expanded IPC support to support upcoming RSR update, added state hints to M10S and M12SP2 by @LTS-FFXIV in https://github.com/FFXIV-CombatReborn/BossmodReborn/pull/1135\r\n\r\n\r\n**Full Changelog**: https://github.com/FFXIV-CombatReborn/BossmodReborn/compare/7.4.5.16...7.4.5.17"
   }
 ]
