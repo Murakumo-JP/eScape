@@ -29,6 +29,10 @@
   },
   {
     "repo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
-    "plugins": ["GatherbuddyReborn", "BossModReborn"]
+    "plugins": ["GatherbuddyReborn"]
+  },
+  {
+    "repo": "https://puni.sh/api/repository/erdelf",
+    "plugins": ["AutoDuty"]
   }
 ]
