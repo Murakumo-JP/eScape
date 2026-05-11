@@ -29,7 +29,7 @@
   },
   {
     "repo": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
-    "plugins": ["GatherbuddyReborn"]
+    "plugins": ["GatherBuddyReborn"]
   },
   {
     "repo": "https://puni.sh/api/repository/erdelf",
