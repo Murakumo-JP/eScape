@@ -318,6 +318,14 @@
     "Punchline": "Dungeons while you sleep, eat, or work. (Swimsuit Shtola made easy.)",
     "Description": "A plugin to run dungeons for you with Trust, Duty Support, Squadrons, Variants, and Regular, Requires BossMod, vnavmesh and a Rotation Plugin (BossMod AutoRotation, Wrath or RotationSolverReborn)",
     "Tags": [
+      "auto",
+      "duty",
+      "dungeon",
+      "trial",
+      "raid",
+      "unsync",
+      "level",
+      "erdelf",
       "eScape"
     ],
     "InternalName": "AutoDuty",
