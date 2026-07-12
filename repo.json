@@ -336,8 +336,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": "15",
     "Changelog": "## What's Changed\r\n* Pictomancy & Wrath API Update by @erdelf in https://github.com/erdelf/AutoDuty/pull/345\r\n* BuildTab AddAction handling rewrite by @erdelf in https://github.com/erdelf/AutoDuty/pull/346\r\n* Bossmod preset.. target everything v2 by @erdelf in https://github.com/erdelf/AutoDuty/pull/347\r\n* Housing Checks reworked by @erdelf in https://github.com/erdelf/AutoDuty/pull/348\r\n* Stop if all glam is collected from dungeon by @erdelf in https://github.com/erdelf/AutoDuty/pull/349\r\n* Stop if Inventory full by @erdelf in https://github.com/erdelf/AutoDuty/pull/350\r\n* package updates + icon fix by @erdelf in https://github.com/erdelf/AutoDuty/pull/352\r\n* Statstab automatic refilters by @erdelf in https://github.com/erdelf/AutoDuty/pull/353\r\n* armoire ids for Housing and Barracks by @erdelf in https://github.com/erdelf/AutoDuty/pull/354\r\n* Armoire detection without BaseId by @erdelf in https://github.com/erdelf/AutoDuty/pull/355\r\n* 1142 Sirensong: transition between boats improved by @erdelf in https://github.com/erdelf/AutoDuty/pull/356\r\n* Termination Option ilvl by @erdelf in https://github.com/erdelf/AutoDuty/pull/358\r\n* adjusted itemlevel detection by @erdelf in https://github.com/erdelf/AutoDuty/pull/359\r\n* Condition Flag Condition by @erdelf in https://github.com/erdelf/AutoDuty/pull/360\r\n* logo adjusted by @erdelf in https://github.com/erdelf/AutoDuty/pull/362\r\n\r\n\r\n**Full Changelog**: https://github.com/erdelf/AutoDuty/compare/0.0.0.316...0.0.0.321",
-    "TestingAssemblyVersion": "0.0.0.324",
-    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.324/install/testing.zip",
+    "TestingAssemblyVersion": "0.0.0.325",
+    "DownloadLinkTesting": "https://puni.sh/api/plugins/download/54/AutoDuty/versions/0.0.0.325/install/testing.zip",
     "TestingDalamudApiLevel": "15",
     "IconUrl": "https://puni.sh/api/plugins/icon/54",
     "ImageUrls": [
